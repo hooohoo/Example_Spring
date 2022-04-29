@@ -37,6 +37,7 @@
     			(#{title}, #{contents}, NOW())
     	</insert>
     	
+    	
     	<update id="update" parameterType="co.kr.project.mvc.domain.Board">
     		UPDATE 
     			test_board
